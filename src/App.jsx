@@ -6,8 +6,9 @@ import PrivateRoute from './components/Router/PrivateRoute'
 import Dashboard from './components/Dashboard/Dashboard'
 
 function App() {
-  return(
+  return(     
     <Router>
+      <h1>Hola, este es mi nuevo cambio</h1>
       <nav>
         <Link to="/">Login</Link> | <Link to="/signup">Registro</Link>        
       </nav>
