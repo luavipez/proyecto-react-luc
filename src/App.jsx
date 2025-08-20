@@ -7,8 +7,7 @@ import Dashboard from './components/Dashboard/Dashboard'
 
 function App() {
   return(     
-    <Router>
-      <h1>Hola, este es mi nuevo cambio</h1>
+    <Router>      
       <nav>
         <Link to="/">Login</Link> | <Link to="/signup">Registro</Link>        
       </nav>

@@ -11,6 +11,7 @@ function Dashboard(){
     }
     return(
         <div className={styles.container}>
+            <h1>Hola, este es mi nuevo cambio</h1>
             <h2>Bienvenido al Dashboard</h2>
             <p>Has iniciado sesión corectamente.</p>
             <button className={styles.button} onClick={handleLogout}>Cerrar sesión</button>
