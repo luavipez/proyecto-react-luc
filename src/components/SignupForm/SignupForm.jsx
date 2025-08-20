@@ -23,7 +23,9 @@ function SignupForm(){
         }
     }
     return(
+        
         <form className={styles.form} onSubmit={handleSignUp}>
+            <h1>Hola, este es mi nuevo cambio</h1>
             <h2>Registrar</h2>
             <input 
                     className={styles.input}        
