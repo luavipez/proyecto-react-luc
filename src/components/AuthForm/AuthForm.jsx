@@ -19,6 +19,7 @@ function AuthForm(){
     }    
 return(
     <form className={styles.form} onSubmit={handleLogin}>
+        <h1>Hola, este es mi nuevo cambio</h1>
         <h2>Iniciar Sesión</h2>
         <input 
         className={styles.input}        
